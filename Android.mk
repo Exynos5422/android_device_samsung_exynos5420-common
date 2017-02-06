@@ -17,7 +17,7 @@
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(BOARD_VENDOR),samsung)
-ifeq ($(TARGET_SOC),exynos5420)
+ifeq ($(TARGET_SOC),exynos5422)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
 endif
