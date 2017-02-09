@@ -133,12 +133,24 @@ PRODUCT_PACKAGES += \
     init.samsung.rc \
     init.universal5422.rc \
     init.universal5422.usb.rc \
-    init.universal5422.wifi.rc
+    init.universal5422.wifi.rc \
+	fstab.universal5422 \
+	init.recovery.universal5422.rc \
+	ueventd.universal5422.rc \
+	init.rc \
+	recovery.fstab \
+	init.goldfish.sh
+
 
 # Radio (needed for audio controls even on wifi-only)
 PRODUCT_PACKAGES += \
     libsecril-client \
     libsecril-client-sap
+
+# Radio
+PRODUCT_PACKAGES += \
+    modemloader \
+	cbd
 
 # Sensors
 PRODUCT_PACKAGES += \
