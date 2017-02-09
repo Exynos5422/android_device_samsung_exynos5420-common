@@ -46,8 +46,8 @@ PRODUCT_PACKAGES += \
     gps.universal5422
 
 # Samsung Doze
-PRODUCT_PACKAGES += \
-    SamsungDoze
+#PRODUCT_PACKAGES += \
+#    SamsungDoze
 
 # Stlport
 PRODUCT_PACKAGES += \
